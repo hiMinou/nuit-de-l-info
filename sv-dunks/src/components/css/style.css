@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+body {
+    background: url('../assets/Fond-site.jpg') repeat scroll;
+}
+
+body, html, .container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+/* bannière */
+
+.banner, .ban, .ban img {
+    max-width: 100%;
+    width: 100%;
+}
+
+/* header */
+.header {
+    height: 100px;
+    line-height: 70px;
+}
+
+.home {
+    color: yellow;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+}
+
+.home:hover {
+    color: yellow;
+}
+
+.nav {
+    float: right;
+}
+
+.nav a {
+    color: yellow;
+    margin-right: 10px;
+}
+
+.nav a:hover {
+    color: #B0C0D9;
+}
+
+
+/* section recherche */
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input, label {
+    margin: .4rem 0;
+}
+
+.recherche {
+    text-align: center;
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+}
